@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+<!-- 
+    =============nav baar -->
+
+
+
+    <nav style="background-color: black;" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div style="text-colour:white" class="container-fluid">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+      </svg>Car showroom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div style="margin-left: 500px;" class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="booking.html"><u>Booking</u> </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Account login
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="login.html">login</a></li>
+              <li><a class="dropdown-item" href="sign up.html">sign up</a></li>
+            
+              <li><a class="dropdown-item" href="cool.html">cooool</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">open </a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+            <button type="button" class="btn btn-outline-secondary">Contact AS</button>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+
+<!-- ====================nav baar end -->
+
+
+<!-- 
+
+================slide -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img style="height: 500px;width: 800px;" src="https://cdn.carbuzz.com/gallery-images/1600/1065000/900/1065978.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img style="height: 500px;width: 800px;" src="https://www.motortrend.com/uploads/2022/08/2022-Bugatti-Chiron-Super-Sport-2-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img style="height: 500px;width: 800px;" src="https://cdn.motor1.com/images/mgl/mrz1e/s1/4x3/coolest-cars-feature.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<br><br><br><br>
+<center style="background-color: ;color: white;"><h1><u>choose the car</u></h1></center>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.usatoday.com/gcdn/-mm-/29bd8e133ab561e957a19005a7fab827f0b38350/c=468-534-2520-1692/local/-/media/USATODAY/GenericImages/2014/08/29/1409346657000-2014-Chevrolet-CruzeRS-010-1-.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn1.buyacar.co.uk/sites/buyacar/files/styles/w860/public/vauxhall-viva-1_0.jpg?itok=VyPXXT2M" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selected eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn.images.express.co.uk/img/dynamic/24/590x/VW-GOLF-2017-871911.jpg?r=1686998680160" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.topgear.com/sites/default/files/2022/05/Nissan_Leaf_MkI_dynamic_front.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFG0ZVyUALT_qCn6hsZhux_hcIeehRgG_QmA&usqp=CAU" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/397/800/desktop-wallpaper-bmw-car-stance-simple-wheels-camber-vehicle-white-cars-and-mobile-backgrounds-camber-thumbnail.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.beaulieu.co.uk/wp-content/uploads/2022/10/Simply-Smart-at-Beaulieu-2.jpg" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">civi</h5>
+                    <p class="card-text">We’ve selected eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://c4.wallpaperflare.com/wallpaper/513/473/191/vehicle-cadillac-car-old-car-1960s-simple-background-cadillac-fleetwood-eldorado-black-cars-american-cars-wallpaper-preview.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express</h5>
+                    <p class="card-text">Increases in saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn.jdpower.com/articleimages/2019%20nissan%20altima_photo_01%20635.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">Mercades</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://propakistani.pk/wp-content/uploads/2023/01/Toyota-Mirai-e1672926023241.jpg" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> low </h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.thedrive.com/uploads/2022/04/20/2022-chevrolet-suburban-premier-review-6.jpg?auto=webp" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://i0.wp.com/autowithsid.in/wp-content/uploads/2023/06/dodge-car-price-in-india.png?fit=1200%2C600&ssl=1" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Auto</h5>
+                    <p class="card-text">We’ve selected eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://images.craigslist.org/00303_ilSfBTUug8l_0kE0dL_600x450.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Mercedes</h5>
+                    <p class="card-text">Increases in saving from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://simplycarsofmemphis.com/website/dealer/pictures/0" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.carscoops.com/wp-content/uploads/2023/03/2024-Hyundai-Sonata-4567-Carscoops.jpg" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> civic</h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.rvcj.com/wp-content/uploads/2019/10/justin-timberlake-600x381.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be  g a u t h g h jhgetting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://toyotacanada.scene7.com/is/image/toyotacanada/14_Avalon_001?ts=1688740958591&$Media-Large$&dpr=off" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selected eight cars that am h kkj n,. kj hi uj hiu re like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/733/906/desktop-wallpaper-200-simple-cars-backgrounds-modern-car-thumbnail.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://car-images.bauersecure.com/wp-images/4720/dacia_sandero_longterm_71.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cartriple.com/wp-content/uploads/2023/03/audi-a8-l-tfsi-e-sedan.png" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi uj nuh  RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.simplysportscars.com/wp-content/uploads/2022/03/Lotus-Emira-sports-car-for-sale-in-Australia-from-Simply-Sports-Cars-Headlamp.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0pVX6WFlU-BgMV_W6uRVvEv2w67Gzh4gEfQ&usqp=CAU" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selec h b g n jh mn hb j h b ted eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://s1.cdn.autoevolution.com/images/news/modernized-1970-ford-torino-gt-is-a-brutishly-simple-muscle-car-151220-7.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in h h gn fb  mgkjg hgjbj jguo mbjbjj hjo  saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sunbeam_Talbot_80_%286285673774%29.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make  a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.gizchina.com/wp-content/uploads/images/2021/09/Xiaomi-car.jpg" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi RS by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.usnews.com/object/image/00000183-c79c-d03b-adef-f7fcaa3f0000/2023-acura-integra-a-spec-2.jpg?update-time=1665501276557&size=responsive640" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://car-images.bauersecure.com/wp-images/13011/octavia49.jpg" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selected eight cars that are like ,nkbn ,mnbkj kbkjb      kbjg  the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://propakistani.pk/wp-content/uploads/2022/02/Honda-Civic-2022-Pakistan-SMK.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in saving ranged from three nknkn ,nbk kj khb  m jkb  per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/819061b6-7d77-4e3b-96af-1075fb2de5cb/Bugatti%20Chiron%20Super%20Sport%20300%2B.jpeg?width=800&fm=jpg&auto=format" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn.motor1.com/images/mgl/ZnmO23/414:0:2878:2160/future-cars-2023-2026.webp" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.usatoday.com/gcdn/-mm-/29bd8e133ab561e957a19005a7fab827f0b38350/c=468-534-2520-1692/local/-/media/USATODAY/GenericImages/2014/08/29/1409346657000-2014-Chevrolet-CruzeRS-010-1-.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn1.buyacar.co.uk/sites/buyacar/files/styles/w860/public/vauxhall-viva-1_0.jpg?itok=VyPXXT2M" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selected eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn.images.express.co.uk/img/dynamic/24/590x/VW-GOLF-2017-871911.jpg?r=1686998680160" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.topgear.com/sites/default/files/2022/05/Nissan_Leaf_MkI_dynamic_front.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFG0ZVyUALT_qCn6hsZhux_hcIeehRgG_QmA&usqp=CAU" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/397/800/desktop-wallpaper-bmw-car-stance-simple-wheels-camber-vehicle-white-cars-and-mobile-backgrounds-camber-thumbnail.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.beaulieu.co.uk/wp-content/uploads/2022/10/Simply-Smart-at-Beaulieu-2.jpg" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">civi</h5>
+                    <p class="card-text">We’ve selected eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://c4.wallpaperflare.com/wallpaper/513/473/191/vehicle-cadillac-car-old-car-1960s-simple-background-cadillac-fleetwood-eldorado-black-cars-american-cars-wallpaper-preview.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express</h5>
+                    <p class="card-text">Increases in saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn.jdpower.com/articleimages/2019%20nissan%20altima_photo_01%20635.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">Mercades</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://propakistani.pk/wp-content/uploads/2023/01/Toyota-Mirai-e1672926023241.jpg" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> low </h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.thedrive.com/uploads/2022/04/20/2022-chevrolet-suburban-premier-review-6.jpg?auto=webp" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://i0.wp.com/autowithsid.in/wp-content/uploads/2023/06/dodge-car-price-in-india.png?fit=1200%2C600&ssl=1" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Auto</h5>
+                    <p class="card-text">We’ve selected eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://images.craigslist.org/00303_ilSfBTUug8l_0kE0dL_600x450.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Mercedes</h5>
+                    <p class="card-text">Increases in saving from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://simplycarsofmemphis.com/website/dealer/pictures/0" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.carscoops.com/wp-content/uploads/2023/03/2024-Hyundai-Sonata-4567-Carscoops.jpg" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> civic</h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.rvcj.com/wp-content/uploads/2019/10/justin-timberlake-600x381.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be  g a u t h g h jhgetting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://toyotacanada.scene7.com/is/image/toyotacanada/14_Avalon_001?ts=1688740958591&$Media-Large$&dpr=off" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selected eight cars that am h kkj n,. kj hi uj hiu re like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/733/906/desktop-wallpaper-200-simple-cars-backgrounds-modern-car-thumbnail.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://car-images.bauersecure.com/wp-images/4720/dacia_sandero_longterm_71.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cartriple.com/wp-content/uploads/2023/03/audi-a8-l-tfsi-e-sedan.png" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi uj nuh  RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.simplysportscars.com/wp-content/uploads/2022/03/Lotus-Emira-sports-car-for-sale-in-Australia-from-Simply-Sports-Cars-Headlamp.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0pVX6WFlU-BgMV_W6uRVvEv2w67Gzh4gEfQ&usqp=CAU" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selec h b g n jh mn hb j h b ted eight cars that are like the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://s1.cdn.autoevolution.com/images/news/modernized-1970-ford-torino-gt-is-a-brutishly-simple-muscle-car-151220-7.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in h h gn fb  mgkjg hgjbj jguo mbjbjj hjo  saving ranged from three per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sunbeam_Talbot_80_%286285673774%29.jpg" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make  a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.gizchina.com/wp-content/uploads/images/2021/09/Xiaomi-car.jpg" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi RS by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://www.usnews.com/object/image/00000183-c79c-d03b-adef-f7fcaa3f0000/2023-acura-integra-a-spec-2.jpg?update-time=1665501276557&size=responsive640" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crolla</h5>
+                    <p class="card-text">Modern cars seem to be getting increasingly complex year after year. Safety regulations,</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://car-images.bauersecure.com/wp-images/13011/octavia49.jpg" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                    <h5 class="card-title">Meera</h5>
+                    <p class="card-text">We’ve selected eight cars that are like ,nkbn ,mnbkj kbkjb      kbjg  the ‘short back and sides’ of the automotive world.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://propakistani.pk/wp-content/uploads/2022/02/Honda-Civic-2022-Pakistan-SMK.jpg" class="card-img-top" alt="Card 3">
+                <div class="card-body">
+                    <h5 class="card-title">Express.co.uk</h5>
+                    <p class="card-text">Increases in saving ranged from three nknkn ,nbk kj khb  m jkb  per cent to up to 22.22 per cent on self models biu.</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/819061b6-7d77-4e3b-96af-1075fb2de5cb/Bugatti%20Chiron%20Super%20Sport%20300%2B.jpeg?width=800&fm=jpg&auto=format" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                    <h5 class="card-title">crolla</h5>
+                    <p class="card-text">A Mercedes G-Class looked to make the biggest saving with a 12.76 discounted in the cars in the cars .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 mb-4">
+            <div class="card">
+                <img src="https://cdn.motor1.com/images/mgl/ZnmO23/414:0:2878:2160/future-cars-2023-2026.webp" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                    <h5 class="card-title"> LOW tech</h5>
+                    <p class="card-text">THthis is the Audi RS5 Sportback created by Ilya Danilov (AZmods). He made a pretty cool car model for .</p>
+                    <button class="btn btn-primary">Check This</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Button -->
+     <!-- <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary">Show More</button>
+        </div> -->
+         </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
